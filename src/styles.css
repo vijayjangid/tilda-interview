@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+.meetings-container {
+  /* display: flex; */
+  top: 80px;
+  left: 150px;
+  border: solid 1px red;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.event-box {
+  border: solid 1px black;
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  height: 40px;
+}
+.event-box header {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.timestamp-container {
+  display: flex;
+  flex-direction: column;
+}
+.timestamp {
+  padding: 10px;
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
